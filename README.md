@@ -56,28 +56,3 @@ A key component of this repository is the **visualization of results**. By plott
 - **Monte Carlo** convergence and accuracy plots.
   
 These help in better understanding the numerical methods' performance and behavior.
-
-## Repository Structure
-
-The repository is structured as follows:
-
-```bash
-Quantitative-Finance-Models/
-│
-├── models/
-│   ├── black_scholes.py        # Black-Scholes model implementation
-│   ├── monte_carlo.py          # Monte Carlo simulation for option pricing
-│   ├── binomial_tree.py        # Binomial tree option pricing model
-│   ├── heston_model.py         # Heston stochastic volatility model
-│   └── ...
-├── tests/
-│   ├── test_black_scholes.py   # Unit tests for Black-Scholes model
-│   ├── test_monte_carlo.py     # Unit tests for Monte Carlo simulation
-│   └── ...
-├── notebooks/
-│   ├── bs_analysis.ipynb       # Jupyter notebook exploring Black-Scholes
-│   ├── mc_analysis.ipynb       # Monte Carlo exploration and results
-│   └── ...
-├── data/                       # Sample data (if needed)
-├── README.md                   # This readme file
-└── LICENSE
